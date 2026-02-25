@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: wheat;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.slide-button {
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+
+.image-list {
+  display: flex;
+  overflow-x: scroll;
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.images {
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  object-fit: cover;
+}
